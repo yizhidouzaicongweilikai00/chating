@@ -1,0 +1,185 @@
+﻿生成启动时间为 2016/10/21 21:48:43。
+     1>项目“D:\InstantMessaging\InstantMessaging\InstantMessaging.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“.\Debug\InstantMessaging.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\InstantMessaging.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt AdvButton.cpp CanvasStatic.cpp ChatRoomServerDlg.cpp DialogSetting.cpp FriendsListCtrl.cpp InstantMessagingDlg.cpp SendFilesClientDlg.cpp SendFilesServerDlg.cpp VideoChatDlg.cpp
+         VideoChatDlg.cpp
+     1>d:\instantmessaging\instantmessaging\videochatdlg.cpp(58): error C2440: “static_cast”: 无法从“void (__thiscall CVideoChatDlg::* )(WPARAM,LPARAM)”转换为“LRESULT (__thiscall CWnd::* )(WPARAM,LPARAM)”
+                 在匹配目标类型的范围内没有具有该名称的函数
+     1>d:\instantmessaging\instantmessaging\videochatdlg.cpp(59): error C2440: “static_cast”: 无法从“void (__thiscall CVideoChatDlg::* )(WPARAM,LPARAM)”转换为“LRESULT (__thiscall CWnd::* )(WPARAM,LPARAM)”
+                 在匹配目标类型的范围内没有具有该名称的函数
+     1>d:\instantmessaging\instantmessaging\videochatdlg.cpp(60): error C2440: “static_cast”: 无法从“void (__thiscall CVideoChatDlg::* )(WPARAM,LPARAM)”转换为“LRESULT (__thiscall CWnd::* )(WPARAM,LPARAM)”
+                 在匹配目标类型的范围内没有具有该名称的函数
+         SendFilesServerDlg.cpp
+     1>d:\instantmessaging\instantmessaging\sendfilesserverdlg.cpp(163): error C2065: “nIndex”: 未声明的标识符
+     1>d:\instantmessaging\instantmessaging\sendfilesserverdlg.cpp(169): warning C4244: “初始化”: 从“ULONGLONG”转换到“DWORD”，可能丢失数据
+     1>d:\instantmessaging\instantmessaging\sendfilesserverdlg.cpp(181): error C2668: “pow”: 对重载函数的调用不明确
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(583): 可能是“long double pow(long double,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(535): 或       “float pow(float,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(497): 或       “double pow(double,int)”
+                 尝试匹配参数列表“(int, int)”时
+     1>d:\instantmessaging\instantmessaging\sendfilesserverdlg.cpp(183): error C2668: “pow”: 对重载函数的调用不明确
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(583): 可能是“long double pow(long double,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(535): 或       “float pow(float,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(497): 或       “double pow(double,int)”
+                 尝试匹配参数列表“(int, int)”时
+     1>d:\instantmessaging\instantmessaging\sendfilesserverdlg.cpp(186): error C2668: “pow”: 对重载函数的调用不明确
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(583): 可能是“long double pow(long double,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(535): 或       “float pow(float,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(497): 或       “double pow(double,int)”
+                 尝试匹配参数列表“(int, int)”时
+     1>d:\instantmessaging\instantmessaging\sendfilesserverdlg.cpp(188): error C2668: “pow”: 对重载函数的调用不明确
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(583): 可能是“long double pow(long double,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(535): 或       “float pow(float,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(497): 或       “double pow(double,int)”
+                 尝试匹配参数列表“(int, int)”时
+     1>d:\instantmessaging\instantmessaging\sendfilesserverdlg.cpp(193): warning C4244: “初始化”: 从“DWORD”转换到“float”，可能丢失数据
+     1>d:\instantmessaging\instantmessaging\sendfilesserverdlg.cpp(302): error C2668: “pow”: 对重载函数的调用不明确
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(583): 可能是“long double pow(long double,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(535): 或       “float pow(float,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(497): 或       “double pow(double,int)”
+                 尝试匹配参数列表“(int, int)”时
+     1>d:\instantmessaging\instantmessaging\sendfilesserverdlg.cpp(304): error C2668: “pow”: 对重载函数的调用不明确
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(583): 可能是“long double pow(long double,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(535): 或       “float pow(float,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(497): 或       “double pow(double,int)”
+                 尝试匹配参数列表“(int, int)”时
+     1>d:\instantmessaging\instantmessaging\sendfilesserverdlg.cpp(307): error C2668: “pow”: 对重载函数的调用不明确
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(583): 可能是“long double pow(long double,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(535): 或       “float pow(float,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(497): 或       “double pow(double,int)”
+                 尝试匹配参数列表“(int, int)”时
+     1>d:\instantmessaging\instantmessaging\sendfilesserverdlg.cpp(309): error C2668: “pow”: 对重载函数的调用不明确
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(583): 可能是“long double pow(long double,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(535): 或       “float pow(float,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(497): 或       “double pow(double,int)”
+                 尝试匹配参数列表“(int, int)”时
+     1>d:\instantmessaging\instantmessaging\sendfilesserverdlg.cpp(314): warning C4244: “初始化”: 从“DWORD”转换到“float”，可能丢失数据
+     1>d:\instantmessaging\instantmessaging\sendfilesserverdlg.cpp(325): warning C4244: “初始化”: 从“unsigned long”转换到“float”，可能丢失数据
+     1>d:\instantmessaging\instantmessaging\sendfilesserverdlg.cpp(327): error C2668: “pow”: 对重载函数的调用不明确
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(583): 可能是“long double pow(long double,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(535): 或       “float pow(float,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(497): 或       “double pow(double,int)”
+                 尝试匹配参数列表“(int, int)”时
+     1>d:\instantmessaging\instantmessaging\sendfilesserverdlg.cpp(329): error C2668: “pow”: 对重载函数的调用不明确
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(583): 可能是“long double pow(long double,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(535): 或       “float pow(float,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(497): 或       “double pow(double,int)”
+                 尝试匹配参数列表“(int, int)”时
+         SendFilesClientDlg.cpp
+     1>d:\instantmessaging\instantmessaging\sendfilesclientdlg.cpp(137): error C2668: “pow”: 对重载函数的调用不明确
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(583): 可能是“long double pow(long double,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(535): 或       “float pow(float,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(497): 或       “double pow(double,int)”
+                 尝试匹配参数列表“(int, int)”时
+     1>d:\instantmessaging\instantmessaging\sendfilesclientdlg.cpp(139): error C2668: “pow”: 对重载函数的调用不明确
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(583): 可能是“long double pow(long double,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(535): 或       “float pow(float,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(497): 或       “double pow(double,int)”
+                 尝试匹配参数列表“(int, int)”时
+     1>d:\instantmessaging\instantmessaging\sendfilesclientdlg.cpp(142): error C2668: “pow”: 对重载函数的调用不明确
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(583): 可能是“long double pow(long double,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(535): 或       “float pow(float,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(497): 或       “double pow(double,int)”
+                 尝试匹配参数列表“(int, int)”时
+     1>d:\instantmessaging\instantmessaging\sendfilesclientdlg.cpp(144): error C2668: “pow”: 对重载函数的调用不明确
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(583): 可能是“long double pow(long double,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(535): 或       “float pow(float,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(497): 或       “double pow(double,int)”
+                 尝试匹配参数列表“(int, int)”时
+     1>d:\instantmessaging\instantmessaging\sendfilesclientdlg.cpp(149): warning C4244: “初始化”: 从“DWORD”转换到“float”，可能丢失数据
+     1>d:\instantmessaging\instantmessaging\sendfilesclientdlg.cpp(220): error C2668: “pow”: 对重载函数的调用不明确
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(583): 可能是“long double pow(long double,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(535): 或       “float pow(float,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(497): 或       “double pow(double,int)”
+                 尝试匹配参数列表“(int, int)”时
+     1>d:\instantmessaging\instantmessaging\sendfilesclientdlg.cpp(222): error C2668: “pow”: 对重载函数的调用不明确
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(583): 可能是“long double pow(long double,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(535): 或       “float pow(float,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(497): 或       “double pow(double,int)”
+                 尝试匹配参数列表“(int, int)”时
+     1>d:\instantmessaging\instantmessaging\sendfilesclientdlg.cpp(225): error C2668: “pow”: 对重载函数的调用不明确
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(583): 可能是“long double pow(long double,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(535): 或       “float pow(float,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(497): 或       “double pow(double,int)”
+                 尝试匹配参数列表“(int, int)”时
+     1>d:\instantmessaging\instantmessaging\sendfilesclientdlg.cpp(227): error C2668: “pow”: 对重载函数的调用不明确
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(583): 可能是“long double pow(long double,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(535): 或       “float pow(float,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(497): 或       “double pow(double,int)”
+                 尝试匹配参数列表“(int, int)”时
+     1>d:\instantmessaging\instantmessaging\sendfilesclientdlg.cpp(232): warning C4244: “初始化”: 从“DWORD”转换到“float”，可能丢失数据
+     1>d:\instantmessaging\instantmessaging\sendfilesclientdlg.cpp(243): warning C4244: “初始化”: 从“unsigned long”转换到“float”，可能丢失数据
+     1>d:\instantmessaging\instantmessaging\sendfilesclientdlg.cpp(245): error C2668: “pow”: 对重载函数的调用不明确
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(583): 可能是“long double pow(long double,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(535): 或       “float pow(float,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(497): 或       “double pow(double,int)”
+                 尝试匹配参数列表“(int, int)”时
+     1>d:\instantmessaging\instantmessaging\sendfilesclientdlg.cpp(247): error C2668: “pow”: 对重载函数的调用不明确
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(583): 可能是“long double pow(long double,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(535): 或       “float pow(float,int)”
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\math.h(497): 或       “double pow(double,int)”
+                 尝试匹配参数列表“(int, int)”时
+         InstantMessagingDlg.cpp
+     1>d:\instantmessaging\instantmessaging\instantmessagingdlg.cpp(117): error C2440: “static_cast”: 无法从“void (__thiscall CInstantMessagingDlg::* )(WPARAM,LPARAM)”转换为“LRESULT (__thiscall CWnd::* )(WPARAM,LPARAM)”
+                 在匹配目标类型的范围内没有具有该名称的函数
+     1>d:\instantmessaging\instantmessaging\instantmessagingdlg.cpp(118): error C2440: “static_cast”: 无法从“void (__thiscall CInstantMessagingDlg::* )(WPARAM,LPARAM)”转换为“LRESULT (__thiscall CWnd::* )(WPARAM,LPARAM)”
+                 在匹配目标类型的范围内没有具有该名称的函数
+     1>d:\instantmessaging\instantmessaging\instantmessagingdlg.cpp(121): error C2440: “static_cast”: 无法从“void (__thiscall CInstantMessagingDlg::* )(WPARAM,LPARAM)”转换为“LRESULT (__thiscall CWnd::* )(WPARAM,LPARAM)”
+                 在匹配目标类型的范围内没有具有该名称的函数
+     1>d:\instantmessaging\instantmessaging\instantmessagingdlg.cpp(122): error C2440: “static_cast”: 无法从“void (__thiscall CInstantMessagingDlg::* )(WPARAM,LPARAM)”转换为“LRESULT (__thiscall CWnd::* )(WPARAM,LPARAM)”
+                 在匹配目标类型的范围内没有具有该名称的函数
+     1>d:\instantmessaging\instantmessaging\instantmessagingdlg.cpp(123): error C2440: “static_cast”: 无法从“void (__thiscall CInstantMessagingDlg::* )(WPARAM,LPARAM)”转换为“LRESULT (__thiscall CWnd::* )(WPARAM,LPARAM)”
+                 在匹配目标类型的范围内没有具有该名称的函数
+     1>d:\instantmessaging\instantmessaging\instantmessagingdlg.cpp(1154): error C2065: “nIndex”: 未声明的标识符
+     1>d:\instantmessaging\instantmessaging\instantmessagingdlg.cpp(1154): error C2065: “nIndex”: 未声明的标识符
+     1>d:\instantmessaging\instantmessaging\instantmessagingdlg.cpp(1154): error C2065: “nIndex”: 未声明的标识符
+     1>d:\instantmessaging\instantmessaging\instantmessagingdlg.cpp(1156): error C2065: “nIndex”: 未声明的标识符
+     1>d:\instantmessaging\instantmessaging\instantmessagingdlg.cpp(1460): error C2065: “nIndex”: 未声明的标识符
+     1>d:\instantmessaging\instantmessaging\instantmessagingdlg.cpp(1574): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\instantmessaging\instantmessaging\instantmessagingdlg.cpp(1613): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\instantmessaging\instantmessaging\instantmessagingdlg.cpp(1689): error C2065: “nIndex1”: 未声明的标识符
+     1>d:\instantmessaging\instantmessaging\instantmessagingdlg.cpp(1938): error C2065: “nIndex”: 未声明的标识符
+     1>d:\instantmessaging\instantmessaging\instantmessagingdlg.cpp(1939): error C2065: “nIndex”: 未声明的标识符
+     1>d:\instantmessaging\instantmessaging\instantmessagingdlg.cpp(1939): error C2065: “nIndex”: 未声明的标识符
+     1>d:\instantmessaging\instantmessaging\instantmessagingdlg.cpp(1939): error C2065: “nIndex”: 未声明的标识符
+     1>d:\instantmessaging\instantmessaging\instantmessagingdlg.cpp(1942): error C2065: “nIndex”: 未声明的标识符
+     1>d:\instantmessaging\instantmessaging\instantmessagingdlg.cpp(2055): error C2065: “nIndex”: 未声明的标识符
+     1>d:\instantmessaging\instantmessaging\instantmessagingdlg.cpp(2055): error C2228: “.strIP”的左边必须有类/结构/联合
+     1>d:\instantmessaging\instantmessaging\instantmessagingdlg.cpp(2056): error C2065: “nIndex”: 未声明的标识符
+     1>d:\instantmessaging\instantmessaging\instantmessagingdlg.cpp(2056): error C2228: “.strName”的左边必须有类/结构/联合
+     1>d:\instantmessaging\instantmessaging\instantmessagingdlg.cpp(2217): warning C4018: “<”: 有符号/无符号不匹配
+         FriendsListCtrl.cpp
+     1>d:\instantmessaging\instantmessaging\friendslistctrl.cpp(48): error C2440: “static_cast”: 无法从“void (__thiscall CFriendsListCtrl::* )(WPARAM,LPARAM)”转换为“LRESULT (__thiscall CWnd::* )(WPARAM,LPARAM)”
+                 在匹配目标类型的范围内没有具有该名称的函数
+     1>d:\instantmessaging\instantmessaging\friendslistctrl.cpp(347): warning C4345: 行为更改: 使用 () 形式的初始值设定项构造的 POD 类型的对象将被默认初始化
+         DialogSetting.cpp
+     1>d:\instantmessaging\instantmessaging\dialogsetting.cpp(107): error C2065: “nIndex”: 未声明的标识符
+     1>d:\instantmessaging\instantmessaging\dialogsetting.cpp(107): error C2065: “nIndex”: 未声明的标识符
+     1>d:\instantmessaging\instantmessaging\dialogsetting.cpp(107): error C2065: “nIndex”: 未声明的标识符
+     1>d:\instantmessaging\instantmessaging\dialogsetting.cpp(109): error C2065: “nIndex”: 未声明的标识符
+     1>d:\instantmessaging\instantmessaging\dialogsetting.cpp(110): error C2065: “nIndex”: 未声明的标识符
+     1>d:\instantmessaging\instantmessaging\dialogsetting.cpp(111): error C2065: “nIndex”: 未声明的标识符
+         ChatRoomServerDlg.cpp
+     1>d:\instantmessaging\instantmessaging\chatroomserverdlg.cpp(153): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\instantmessaging\instantmessaging\chatroomserverdlg.cpp(415): error C2065: “nIndex”: 未声明的标识符
+     1>d:\instantmessaging\instantmessaging\chatroomserverdlg.cpp(415): error C2065: “nIndex”: 未声明的标识符
+     1>d:\instantmessaging\instantmessaging\chatroomserverdlg.cpp(415): error C2065: “nIndex”: 未声明的标识符
+     1>d:\instantmessaging\instantmessaging\chatroomserverdlg.cpp(417): error C2065: “nIndex”: 未声明的标识符
+     1>d:\instantmessaging\instantmessaging\chatroomserverdlg.cpp(438): error C2065: “nIndex”: 未声明的标识符
+     1>d:\instantmessaging\instantmessaging\chatroomserverdlg.cpp(439): error C2065: “nIndex”: 未声明的标识符
+         CanvasStatic.cpp
+     1>d:\instantmessaging\instantmessaging\canvasstatic.cpp(39): error C2440: “static_cast”: 无法从“void (__thiscall CCanvasStatic::* )(WPARAM,LPARAM)”转换为“LRESULT (__thiscall CWnd::* )(WPARAM,LPARAM)”
+                 在匹配目标类型的范围内没有具有该名称的函数
+         AdvButton.cpp
+     1>d:\instantmessaging\instantmessaging\advbutton.cpp(44): error C2440: “static_cast”: 无法从“void (__thiscall CAdvButton::* )(WPARAM,LPARAM)”转换为“LRESULT (__thiscall CWnd::* )(WPARAM,LPARAM)”
+                 在匹配目标类型的范围内没有具有该名称的函数
+         正在生成代码...
+     1>已完成生成项目“D:\InstantMessaging\InstantMessaging\InstantMessaging.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.92
